@@ -1,0 +1,401 @@
+quote_id,case_id,line,role,carrier,status,term_months,quoted_premium,annual_premium,quote_date,rank_in_line,on_sheet
+QT-00001,Q-2D7455539648DB07,auto,current,State Auto,in_force,12,2767.24,2767.24,2026-10-06,,yes
+QT-00002,Q-2D7455539648DB07,auto,quote,Progressive,success,6,991.43,1982.87,2026-10-10,1,no
+QT-00003,Q-ADDE6A02E5D192D4,home,current,State Auto,in_force,12,2216.72,2216.72,2026-09-24,,yes
+QT-00004,Q-ADDE6A02E5D192D4,home,quote,Erie,success,12,1731.42,1731.42,2026-09-30,1,no
+QT-00005,Q-ADDE6A02E5D192D4,home,quote,Liberty Mutual,success,12,2244.92,2244.92,2026-09-30,2,no
+QT-00006,Q-ADDE6A02E5D192D4,auto,current,State Auto,in_force,12,2753.55,2753.55,2026-09-24,,yes
+QT-00007,Q-ADDE6A02E5D192D4,auto,quote,Progressive,not_quoted,6,,,2026-09-25,,no
+QT-00008,Q-ADDE6A02E5D192D4,auto,quote,Erie,success,12,2167.79,2167.79,2026-09-28,1,no
+QT-00009,Q-ADDE6A02E5D192D4,auto,quote,Encova,success,12,2659.51,2659.51,2026-09-30,2,no
+QT-00010,Q-656DB965EDDC5360,home,current,Erie,in_force,12,1422.87,1422.87,2026-09-27,,yes
+QT-00011,Q-656DB965EDDC5360,home,quote,Encova,success,12,1652.64,1652.64,2026-09-28,2,no
+QT-00012,Q-656DB965EDDC5360,home,quote,Foremost,success,12,1380.17,1380.17,2026-10-02,1,no
+QT-00013,Q-656DB965EDDC5360,home,quote,Encompass,declined,12,,,2026-09-30,,no
+QT-00014,Q-4CDBE670D6217B4C,home,current,State Auto,in_force,12,1775.04,1775.04,2026-09-26,,yes
+QT-00015,Q-4CDBE670D6217B4C,home,quote,Encova,success,12,2264.57,2264.57,2026-09-27,2,no
+QT-00016,Q-4CDBE670D6217B4C,home,quote,Encompass,success,12,1871.53,1871.53,2026-10-01,1,no
+QT-00017,Q-4CDBE670D6217B4C,auto,current,State Auto,in_force,12,2107.26,2107.26,2026-09-26,,yes
+QT-00018,Q-4CDBE670D6217B4C,auto,quote,Progressive,declined,6,,,2026-10-02,,no
+QT-00019,Q-4CDBE670D6217B4C,auto,quote,Encompass,success,6,1283.79,2567.58,2026-09-30,1,no
+QT-00020,Q-4CDBE670D6217B4C,auto,quote,Encova,declined,12,,,2026-09-27,,no
+QT-00021,Q-721841ACF067F70E,home,current,Erie,in_force,12,1845.84,1845.84,2026-10-05,,yes
+QT-00022,Q-721841ACF067F70E,home,quote,Erie,success,12,1883.49,1883.49,2026-10-09,2,no
+QT-00023,Q-721841ACF067F70E,home,quote,Encova,success,12,1573.61,1573.61,2026-10-09,1,no
+QT-00024,Q-3B171C584DE37742,auto,current,State Auto,in_force,12,1921.37,1921.37,2026-09-30,,yes
+QT-00025,Q-3B171C584DE37742,auto,quote,Progressive,success,6,1103.62,2207.24,2026-10-06,1,no
+QT-00026,Q-08AAB0743F3BA6C8,motorcycle,current,Nationwide,in_force,12,494.04,494.04,2026-09-22,,yes
+QT-00027,Q-08AAB0743F3BA6C8,motorcycle,quote,Progressive,referred,6,,,2026-09-24,,no
+QT-00028,Q-08AAB0743F3BA6C8,motorcycle,quote,Foremost,declined,12,,,2026-09-27,,no
+QT-00029,Q-EDAD716B2F05B804,dwelling_fire,current,Erie,in_force,12,1435.26,1435.26,2026-09-26,,yes
+QT-00030,Q-EDAD716B2F05B804,dwelling_fire,quote,Erie,success,12,1327.61,1327.61,2026-09-29,3,no
+QT-00031,Q-EDAD716B2F05B804,dwelling_fire,quote,Encova,success,12,1138.95,1138.95,2026-09-28,1,no
+QT-00032,Q-EDAD716B2F05B804,dwelling_fire,quote,Foremost,success,12,1325.6,1325.6,2026-09-30,2,no
+QT-00033,Q-115129F54D7D01A1,renters,current,Erie,in_force,12,319.68,319.68,2026-09-23,,yes
+QT-00034,Q-115129F54D7D01A1,renters,quote,Erie,declined,12,,,2026-09-27,,no
+QT-00035,Q-115129F54D7D01A1,renters,quote,Liberty Mutual,success,12,330.41,330.41,2026-09-26,2,no
+QT-00036,Q-115129F54D7D01A1,renters,quote,Progressive,success,12,243.9,243.9,2026-09-27,1,no
+QT-00037,Q-46393E5841A72D19,home,current,Nationwide,in_force,12,1588.16,1588.16,2026-09-26,,yes
+QT-00038,Q-46393E5841A72D19,home,quote,Liberty Mutual,success,12,1590.25,1590.25,2026-09-30,1,no
+QT-00039,Q-46393E5841A72D19,home,quote,Foremost,success,12,1705.1,1705.1,2026-09-29,2,no
+QT-00040,Q-46393E5841A72D19,auto,current,Nationwide,in_force,12,1660.14,1660.14,2026-09-26,,yes
+QT-00041,Q-46393E5841A72D19,auto,quote,Encova,success,12,1729.35,1729.35,2026-09-27,1,no
+QT-00042,Q-46393E5841A72D19,umbrella,current,Nationwide,in_force,12,442.73,442.73,2026-09-26,,yes
+QT-00043,Q-46393E5841A72D19,umbrella,quote,Erie,success,12,322.66,322.66,2026-09-29,1,no
+QT-00044,Q-1D9B49ECD6B84C10,motorcycle,current,Encova,in_force,12,530.82,530.82,2026-09-21,,yes
+QT-00045,Q-1D9B49ECD6B84C10,motorcycle,quote,Foremost,declined,12,,,2026-09-23,,no
+QT-00046,Q-1D9B49ECD6B84C10,motorcycle,quote,Progressive,success,6,216.32,432.64,2026-09-24,1,yes
+QT-00047,Q-1D9B49ECD6B84C10,motorcycle,quote,Erie,success,12,491.84,491.84,2026-09-22,2,yes
+QT-00048,Q-2A1C67F5377F894F,dwelling_fire,current,Erie,in_force,12,947.61,947.61,2026-10-04,,yes
+QT-00049,Q-2A1C67F5377F894F,dwelling_fire,quote,Foremost,success,12,1059.41,1059.41,2026-10-05,3,yes
+QT-00050,Q-2A1C67F5377F894F,dwelling_fire,quote,Erie,success,12,1024.87,1024.87,2026-10-08,2,yes
+QT-00051,Q-2A1C67F5377F894F,dwelling_fire,quote,Encova,success,12,1020.97,1020.97,2026-10-10,1,yes
+QT-00052,Q-88B0759F372B87B4,home,current,Nationwide,in_force,12,1795.84,1795.84,2026-09-20,,yes
+QT-00053,Q-88B0759F372B87B4,home,quote,Foremost,success,12,1730.2,1730.2,2026-09-22,4,no
+QT-00054,Q-88B0759F372B87B4,home,quote,Erie,success,12,1315.02,1315.02,2026-09-21,1,yes
+QT-00055,Q-88B0759F372B87B4,home,quote,Liberty Mutual,success,12,1398.16,1398.16,2026-09-25,2,yes
+QT-00056,Q-88B0759F372B87B4,home,quote,Encompass,success,12,1721.08,1721.08,2026-09-21,3,yes
+QT-00057,Q-88B0759F372B87B4,home,quote,Encova,success,12,1730.28,1730.28,2026-09-22,5,no
+QT-00058,Q-DDC546EC5094A449,home,current,Erie,in_force,12,1452.7,1452.7,2026-09-22,,yes
+QT-00059,Q-DDC546EC5094A449,home,quote,Erie,success,12,1684.89,1684.89,2026-09-24,3,yes
+QT-00060,Q-DDC546EC5094A449,home,quote,Encompass,success,12,1290.43,1290.43,2026-09-23,1,yes
+QT-00061,Q-DDC546EC5094A449,home,quote,Foremost,not_quoted,12,,,2026-09-26,,no
+QT-00062,Q-DDC546EC5094A449,home,quote,Encova,success,12,1620.93,1620.93,2026-09-26,2,yes
+QT-00063,Q-DDC546EC5094A449,home,quote,Liberty Mutual,success,12,1830.41,1830.41,2026-09-27,4,no
+QT-00064,Q-CDCACAA025D39CC2,home,current,Nationwide,in_force,12,2184.5,2184.5,2026-09-16,,yes
+QT-00065,Q-CDCACAA025D39CC2,home,quote,Foremost,not_quoted,12,,,2026-09-17,,no
+QT-00066,Q-CDCACAA025D39CC2,home,quote,Encompass,success,12,1880.52,1880.52,2026-09-22,1,yes
+QT-00067,Q-CDCACAA025D39CC2,home,quote,Liberty Mutual,success,12,2446.0,2446.0,2026-09-22,4,no
+QT-00068,Q-CDCACAA025D39CC2,home,quote,Erie,success,12,2344.59,2344.59,2026-09-22,2,yes
+QT-00069,Q-CDCACAA025D39CC2,home,quote,Encova,success,12,2374.5,2374.5,2026-09-17,3,yes
+QT-00070,Q-CDCACAA025D39CC2,auto,current,Nationwide,in_force,12,2411.24,2411.24,2026-09-16,,yes
+QT-00071,Q-CDCACAA025D39CC2,auto,quote,Progressive,success,6,1282.56,2565.11,2026-09-19,5,no
+QT-00072,Q-CDCACAA025D39CC2,auto,quote,Liberty Mutual,success,6,1136.81,2273.62,2026-09-18,3,yes
+QT-00073,Q-CDCACAA025D39CC2,auto,quote,Erie,success,12,2043.11,2043.11,2026-09-22,2,yes
+QT-00074,Q-CDCACAA025D39CC2,auto,quote,Encompass,success,6,1153.12,2306.23,2026-09-19,4,no
+QT-00075,Q-CDCACAA025D39CC2,auto,quote,Encova,success,12,2013.33,2013.33,2026-09-20,1,yes
+QT-00076,Q-9403F1E20A6DDA47,motorcycle,current,Encova,in_force,12,516.02,516.02,2026-09-27,,yes
+QT-00077,Q-9403F1E20A6DDA47,motorcycle,quote,Erie,success,12,561.01,561.01,2026-09-30,2,yes
+QT-00078,Q-9403F1E20A6DDA47,motorcycle,quote,Foremost,success,12,570.47,570.47,2026-09-29,3,yes
+QT-00079,Q-9403F1E20A6DDA47,motorcycle,quote,Progressive,success,6,209.97,419.95,2026-09-28,1,yes
+QT-00080,Q-870405B32B5AAF3B,auto,current,Nationwide,in_force,12,1652.0,1652.0,2026-09-29,,yes
+QT-00081,Q-870405B32B5AAF3B,auto,quote,Encompass,success,6,918.97,1837.94,2026-10-04,1,yes
+QT-00082,Q-870405B32B5AAF3B,auto,quote,Liberty Mutual,declined,6,,,2026-10-03,,no
+QT-00083,Q-870405B32B5AAF3B,auto,quote,Erie,success,12,1937.26,1937.26,2026-10-01,2,yes
+QT-00084,Q-870405B32B5AAF3B,auto,quote,Encova,success,12,1942.25,1942.25,2026-10-02,3,yes
+QT-00085,Q-870405B32B5AAF3B,auto,quote,Progressive,referred,6,,,2026-09-30,,no
+QT-00086,Q-71DF9E81A28FD59D,home,current,State Auto,in_force,12,1515.67,1515.67,2026-09-30,,yes
+QT-00087,Q-71DF9E81A28FD59D,home,quote,Erie,success,12,1719.03,1719.03,2026-10-05,3,yes
+QT-00088,Q-71DF9E81A28FD59D,home,quote,Encompass,success,12,1669.48,1669.48,2026-10-04,2,yes
+QT-00089,Q-71DF9E81A28FD59D,home,quote,Encova,success,12,1488.29,1488.29,2026-10-02,1,yes
+QT-00090,Q-71DF9E81A28FD59D,home,quote,Liberty Mutual,declined,12,,,2026-10-05,,no
+QT-00091,Q-71DF9E81A28FD59D,home,quote,Foremost,success,12,1742.77,1742.77,2026-10-02,4,no
+QT-00092,Q-DEE92D98809DCE11,home,current,Nationwide,in_force,12,2387.8,2387.8,2026-09-10,,yes
+QT-00093,Q-DEE92D98809DCE11,home,quote,Erie,success,12,2336.5,2336.5,2026-09-14,3,yes
+QT-00094,Q-DEE92D98809DCE11,home,quote,Liberty Mutual,declined,12,,,2026-09-12,,no
+QT-00095,Q-DEE92D98809DCE11,home,quote,Encova,success,12,2030.6,2030.6,2026-09-15,2,yes
+QT-00096,Q-DEE92D98809DCE11,home,quote,Foremost,success,12,2022.76,2022.76,2026-09-15,1,yes
+QT-00097,Q-DEE92D98809DCE11,home,quote,Encompass,success,12,2355.76,2355.76,2026-09-15,4,no
+QT-00098,Q-DEE92D98809DCE11,auto,current,Nationwide,in_force,12,2355.34,2355.34,2026-09-10,,yes
+QT-00099,Q-DEE92D98809DCE11,auto,quote,Liberty Mutual,success,6,1339.63,2679.26,2026-09-16,5,no
+QT-00100,Q-DEE92D98809DCE11,auto,quote,Progressive,success,6,1061.03,2122.06,2026-09-11,1,yes
+QT-00101,Q-DEE92D98809DCE11,auto,quote,Encova,success,12,2329.35,2329.35,2026-09-12,4,no
+QT-00102,Q-DEE92D98809DCE11,auto,quote,Erie,success,12,2283.5,2283.5,2026-09-13,3,yes
+QT-00103,Q-DEE92D98809DCE11,auto,quote,Encompass,success,6,1141.15,2282.31,2026-09-15,2,yes
+QT-00104,Q-5EDDD9DD02514A3C,home,current,State Auto,in_force,12,1203.07,1203.07,2026-09-10,,yes
+QT-00105,Q-5EDDD9DD02514A3C,home,quote,Encompass,not_quoted,12,,,2026-09-15,,no
+QT-00106,Q-5EDDD9DD02514A3C,home,quote,Foremost,not_quoted,12,,,2026-09-11,,no
+QT-00107,Q-5EDDD9DD02514A3C,home,quote,Erie,success,12,1408.6,1408.6,2026-09-11,2,yes
+QT-00108,Q-5EDDD9DD02514A3C,home,quote,Liberty Mutual,not_quoted,12,,,2026-09-11,,no
+QT-00109,Q-5EDDD9DD02514A3C,home,quote,Encova,success,12,1344.39,1344.39,2026-09-16,1,yes
+QT-00110,Q-879B801BE233710F,auto,current,Nationwide,in_force,12,2030.09,2030.09,2026-09-13,,yes
+QT-00111,Q-879B801BE233710F,auto,quote,Progressive,success,6,1122.79,2245.58,2026-09-18,2,yes
+QT-00112,Q-879B801BE233710F,auto,quote,Erie,success,12,2484.91,2484.91,2026-09-18,4,no
+QT-00113,Q-879B801BE233710F,auto,quote,Encova,success,12,2335.03,2335.03,2026-09-16,3,yes
+QT-00114,Q-879B801BE233710F,auto,quote,Encompass,declined,6,,,2026-09-15,,no
+QT-00115,Q-879B801BE233710F,auto,quote,Liberty Mutual,success,6,989.24,1978.48,2026-09-15,1,yes
+QT-00116,Q-78A35FB7CBA1E4CF,home,current,Erie,in_force,12,2026.89,2026.89,2026-09-24,,yes
+QT-00117,Q-78A35FB7CBA1E4CF,home,quote,Encompass,success,12,1924.86,1924.86,2026-09-25,3,yes
+QT-00118,Q-78A35FB7CBA1E4CF,home,quote,Foremost,success,12,1873.34,1873.34,2026-09-28,2,yes
+QT-00119,Q-78A35FB7CBA1E4CF,home,quote,Erie,success,12,2196.81,2196.81,2026-09-28,4,no
+QT-00120,Q-78A35FB7CBA1E4CF,home,quote,Encova,success,12,1742.29,1742.29,2026-09-28,1,yes
+QT-00121,Q-78A35FB7CBA1E4CF,home,quote,Liberty Mutual,success,12,2239.1,2239.1,2026-09-26,5,no
+QT-00122,Q-B89774CFC256525E,auto,current,Erie,in_force,12,1890.73,1890.73,2026-09-17,,yes
+QT-00123,Q-B89774CFC256525E,auto,quote,Progressive,success,6,957.91,1915.82,2026-09-20,4,no
+QT-00124,Q-B89774CFC256525E,auto,quote,Erie,success,12,1494.92,1494.92,2026-09-19,1,yes
+QT-00125,Q-B89774CFC256525E,auto,quote,Encompass,success,6,796.91,1593.82,2026-09-23,3,yes
+QT-00126,Q-B89774CFC256525E,auto,quote,Encova,not_quoted,12,,,2026-09-23,,no
+QT-00127,Q-B89774CFC256525E,auto,quote,Liberty Mutual,success,6,762.06,1524.12,2026-09-22,2,yes
+QT-00128,Q-726AFF29F343E839,dwelling_fire,current,Nationwide,in_force,12,1203.71,1203.71,2026-09-14,,yes
+QT-00129,Q-726AFF29F343E839,dwelling_fire,quote,Encova,success,12,978.24,978.24,2026-09-18,2,yes
+QT-00130,Q-726AFF29F343E839,dwelling_fire,quote,Erie,success,12,1101.22,1101.22,2026-09-19,3,yes
+QT-00131,Q-726AFF29F343E839,dwelling_fire,quote,Foremost,success,12,873.24,873.24,2026-09-20,1,yes
+QT-00132,Q-CFC2B8D17A9754A9,dwelling_fire,current,Progressive,in_force,12,1455.16,1455.16,2026-09-20,,yes
+QT-00133,Q-CFC2B8D17A9754A9,dwelling_fire,quote,Encova,success,12,1587.17,1587.17,2026-09-25,2,yes
+QT-00134,Q-CFC2B8D17A9754A9,dwelling_fire,quote,Foremost,success,12,1208.76,1208.76,2026-09-24,1,yes
+QT-00135,Q-CFC2B8D17A9754A9,dwelling_fire,quote,Erie,not_quoted,12,,,2026-09-22,,no
+QT-00136,Q-A7CA42664E96D1F0,home,current,Progressive,in_force,12,1633.04,1633.04,2026-06-16,,yes
+QT-00137,Q-A7CA42664E96D1F0,home,quote,Encova,success,12,1887.6,1887.6,2026-06-21,5,no
+QT-00138,Q-A7CA42664E96D1F0,home,quote,Erie,success,12,1791.55,1791.55,2026-06-22,3,yes
+QT-00139,Q-A7CA42664E96D1F0,home,quote,Encompass,success,12,1770.84,1770.84,2026-06-21,2,yes
+QT-00140,Q-A7CA42664E96D1F0,home,quote,Foremost,success,12,1397.24,1397.24,2026-06-19,1,yes
+QT-00141,Q-A7CA42664E96D1F0,home,quote,Liberty Mutual,success,12,1882.59,1882.59,2026-06-21,4,no
+QT-00142,Q-A7CA42664E96D1F0,auto,current,Progressive,in_force,12,2124.87,2124.87,2026-06-16,,yes
+QT-00143,Q-A7CA42664E96D1F0,auto,quote,Liberty Mutual,declined,6,,,2026-06-17,,no
+QT-00144,Q-A7CA42664E96D1F0,auto,quote,Progressive,success,6,905.91,1811.81,2026-06-18,2,yes
+QT-00145,Q-A7CA42664E96D1F0,auto,quote,Erie,success,12,1906.01,1906.01,2026-06-20,3,yes
+QT-00146,Q-A7CA42664E96D1F0,auto,quote,Encova,success,12,1740.97,1740.97,2026-06-19,1,yes
+QT-00147,Q-A7CA42664E96D1F0,auto,quote,Encompass,success,6,1148.01,2296.01,2026-06-18,4,no
+QT-00148,Q-A7CA42664E96D1F0,umbrella,current,Progressive,in_force,12,375.85,375.85,2026-06-16,,yes
+QT-00149,Q-A7CA42664E96D1F0,umbrella,quote,Liberty Mutual,success,12,354.85,354.85,2026-06-18,2,yes
+QT-00150,Q-A7CA42664E96D1F0,umbrella,quote,Erie,success,12,339.94,339.94,2026-06-22,1,yes
+QT-00151,Q-A7CA42664E96D1F0,umbrella,quote,Encova,declined,12,,,2026-06-17,,no
+QT-00152,Q-43FEDA7584B89623,home,current,Progressive,in_force,12,1231.03,1231.03,2026-08-26,,yes
+QT-00153,Q-43FEDA7584B89623,home,quote,Encova,not_quoted,12,,,2026-08-28,,no
+QT-00154,Q-43FEDA7584B89623,home,quote,Encompass,success,12,1067.18,1067.18,2026-09-01,1,yes
+QT-00155,Q-43FEDA7584B89623,home,quote,Erie,declined,12,,,2026-08-31,,no
+QT-00156,Q-43FEDA7584B89623,home,quote,Liberty Mutual,success,12,1531.09,1531.09,2026-08-29,3,yes
+QT-00157,Q-43FEDA7584B89623,home,quote,Foremost,success,12,1194.58,1194.58,2026-09-01,2,yes
+QT-00158,Q-43FEDA7584B89623,auto,current,Progressive,in_force,12,1378.6,1378.6,2026-08-26,,yes
+QT-00159,Q-43FEDA7584B89623,auto,quote,Encompass,success,6,762.77,1525.54,2026-08-31,3,yes
+QT-00160,Q-43FEDA7584B89623,auto,quote,Encova,success,12,1233.19,1233.19,2026-08-29,2,yes
+QT-00161,Q-43FEDA7584B89623,auto,quote,Liberty Mutual,declined,6,,,2026-08-30,,no
+QT-00162,Q-43FEDA7584B89623,auto,quote,Erie,success,12,1532.3,1532.3,2026-08-28,4,no
+QT-00163,Q-43FEDA7584B89623,auto,quote,Progressive,success,6,589.21,1178.42,2026-08-28,1,yes
+QT-00164,Q-5F0D88E773BC500E,auto,current,Encova,in_force,12,1502.84,1502.84,2026-08-12,,yes
+QT-00165,Q-5F0D88E773BC500E,auto,quote,Progressive,success,6,690.96,1381.92,2026-08-15,2,yes
+QT-00166,Q-5F0D88E773BC500E,auto,quote,Liberty Mutual,success,6,651.84,1303.68,2026-08-13,1,yes
+QT-00167,Q-5F0D88E773BC500E,auto,quote,Erie,declined,12,,,2026-08-14,,no
+QT-00168,Q-5F0D88E773BC500E,auto,quote,Encova,not_quoted,12,,,2026-08-13,,no
+QT-00169,Q-5F0D88E773BC500E,auto,quote,Encompass,success,6,773.73,1547.45,2026-08-17,3,yes
+QT-00170,Q-D2A9B7B488E9DE20,home,current,Erie,in_force,12,2046.91,2046.91,2026-07-14,,yes
+QT-00171,Q-D2A9B7B488E9DE20,home,quote,Encompass,success,12,1607.07,1607.07,2026-07-15,3,yes
+QT-00172,Q-D2A9B7B488E9DE20,home,quote,Foremost,success,12,1584.07,1584.07,2026-07-15,1,yes
+QT-00173,Q-D2A9B7B488E9DE20,home,quote,Erie,success,12,1845.78,1845.78,2026-07-17,4,no
+QT-00174,Q-D2A9B7B488E9DE20,home,quote,Encova,success,12,1586.38,1586.38,2026-07-15,2,yes
+QT-00175,Q-D2A9B7B488E9DE20,home,quote,Liberty Mutual,declined,12,,,2026-07-15,,no
+QT-00176,Q-D2A9B7B488E9DE20,auto,current,Erie,in_force,12,2238.76,2238.76,2026-07-14,,yes
+QT-00177,Q-D2A9B7B488E9DE20,auto,quote,Erie,success,12,1776.41,1776.41,2026-07-19,2,yes
+QT-00178,Q-D2A9B7B488E9DE20,auto,quote,Encompass,success,6,1022.98,2045.95,2026-07-17,4,no
+QT-00179,Q-D2A9B7B488E9DE20,auto,quote,Liberty Mutual,success,6,1003.85,2007.7,2026-07-16,3,yes
+QT-00180,Q-D2A9B7B488E9DE20,auto,quote,Progressive,success,6,872.84,1745.67,2026-07-20,1,yes
+QT-00181,Q-D2A9B7B488E9DE20,auto,quote,Encova,not_quoted,12,,,2026-07-18,,no
+QT-00182,Q-25BB95BEFE7CE453,home,current,State Auto,in_force,12,1318.73,1318.73,2026-09-24,,yes
+QT-00183,Q-25BB95BEFE7CE453,home,quote,Erie,success,12,1105.55,1105.55,2026-09-26,1,yes
+QT-00184,Q-25BB95BEFE7CE453,home,quote,Foremost,success,12,1362.53,1362.53,2026-09-29,2,yes
+QT-00185,Q-25BB95BEFE7CE453,home,quote,Liberty Mutual,success,12,1484.04,1484.04,2026-09-25,3,yes
+QT-00186,Q-25BB95BEFE7CE453,home,quote,Encova,referred,12,,,2026-09-28,,no
+QT-00187,Q-25BB95BEFE7CE453,home,quote,Encompass,success,12,1596.38,1596.38,2026-09-29,4,no
+QT-00188,Q-25BB95BEFE7CE453,auto,current,State Auto,in_force,12,1693.33,1693.33,2026-09-24,,yes
+QT-00189,Q-25BB95BEFE7CE453,auto,quote,Liberty Mutual,success,6,905.29,1810.58,2026-09-28,4,no
+QT-00190,Q-25BB95BEFE7CE453,auto,quote,Progressive,success,6,620.27,1240.54,2026-09-26,1,yes
+QT-00191,Q-25BB95BEFE7CE453,auto,quote,Encova,success,12,1860.04,1860.04,2026-09-28,5,no
+QT-00192,Q-25BB95BEFE7CE453,auto,quote,Erie,success,12,1548.97,1548.97,2026-09-25,2,yes
+QT-00193,Q-25BB95BEFE7CE453,auto,quote,Encompass,success,6,841.12,1682.23,2026-09-25,3,yes
+QT-00194,Q-EBDE2DC6849DB1B6,home,current,State Auto,in_force,12,1559.58,1559.58,2026-09-20,,yes
+QT-00195,Q-EBDE2DC6849DB1B6,home,quote,Erie,success,12,1324.21,1324.21,2026-09-21,2,yes
+QT-00196,Q-EBDE2DC6849DB1B6,home,quote,Encova,success,12,1354.28,1354.28,2026-09-24,3,yes
+QT-00197,Q-EBDE2DC6849DB1B6,home,quote,Encompass,not_quoted,12,,,2026-09-24,,no
+QT-00198,Q-EBDE2DC6849DB1B6,home,quote,Liberty Mutual,success,12,1283.97,1283.97,2026-09-24,1,yes
+QT-00199,Q-EBDE2DC6849DB1B6,home,quote,Foremost,success,12,1451.25,1451.25,2026-09-23,4,no
+QT-00200,Q-8395161CC0A7E202,motorcycle,current,State Auto,in_force,12,474.43,474.43,2026-08-18,,yes
+QT-00201,Q-8395161CC0A7E202,motorcycle,quote,Erie,not_quoted,12,,,2026-08-23,,no
+QT-00202,Q-8395161CC0A7E202,motorcycle,quote,Foremost,declined,12,,,2026-08-22,,no
+QT-00203,Q-8395161CC0A7E202,motorcycle,quote,Progressive,success,6,211.97,423.93,2026-08-19,1,yes
+QT-00204,Q-EB385AE03496151C,auto,current,Progressive,in_force,12,2448.22,2448.22,2026-09-03,,yes
+QT-00205,Q-EB385AE03496151C,auto,quote,Erie,not_quoted,12,,,2026-09-09,,no
+QT-00206,Q-EB385AE03496151C,auto,quote,Encova,success,12,2212.37,2212.37,2026-09-04,2,yes
+QT-00207,Q-EB385AE03496151C,auto,quote,Liberty Mutual,not_quoted,6,,,2026-09-06,,no
+QT-00208,Q-EB385AE03496151C,auto,quote,Progressive,success,6,1105.53,2211.05,2026-09-05,1,yes
+QT-00209,Q-EB385AE03496151C,auto,quote,Encompass,success,6,1175.84,2351.67,2026-09-08,3,yes
+QT-00210,Q-EB385AE03496151C,renters,current,Progressive,in_force,12,281.54,281.54,2026-09-03,,yes
+QT-00211,Q-EB385AE03496151C,renters,quote,Liberty Mutual,success,12,367.25,367.25,2026-09-04,4,no
+QT-00212,Q-EB385AE03496151C,renters,quote,Progressive,success,12,257.34,257.34,2026-09-06,1,yes
+QT-00213,Q-EB385AE03496151C,renters,quote,Foremost,success,12,278.12,278.12,2026-09-09,3,yes
+QT-00214,Q-EB385AE03496151C,renters,quote,Erie,success,12,265.15,265.15,2026-09-08,2,yes
+QT-00215,Q-6CB602065BA7D2A9,home,current,Encova,in_force,12,1773.26,1773.26,2026-06-19,,yes
+QT-00216,Q-6CB602065BA7D2A9,home,quote,Erie,declined,12,,,2026-06-22,,no
+QT-00217,Q-6CB602065BA7D2A9,home,quote,Encompass,not_quoted,12,,,2026-06-21,,no
+QT-00218,Q-6CB602065BA7D2A9,home,quote,Encova,success,12,1814.93,1814.93,2026-06-21,3,yes
+QT-00219,Q-6CB602065BA7D2A9,home,quote,Foremost,success,12,1544.93,1544.93,2026-06-21,2,yes
+QT-00220,Q-6CB602065BA7D2A9,home,quote,Liberty Mutual,success,12,1467.99,1467.99,2026-06-20,1,yes
+QT-00221,Q-6CB602065BA7D2A9,auto,current,Encova,in_force,12,1766.39,1766.39,2026-06-19,,yes
+QT-00222,Q-6CB602065BA7D2A9,auto,quote,Erie,success,12,1553.48,1553.48,2026-06-24,1,yes
+QT-00223,Q-6CB602065BA7D2A9,auto,quote,Liberty Mutual,success,6,874.43,1748.87,2026-06-25,2,yes
+QT-00224,Q-6CB602065BA7D2A9,auto,quote,Progressive,declined,6,,,2026-06-24,,no
+QT-00225,Q-6CB602065BA7D2A9,auto,quote,Encova,success,12,1842.98,1842.98,2026-06-24,3,yes
+QT-00226,Q-6CB602065BA7D2A9,auto,quote,Encompass,success,6,1088.59,2177.18,2026-06-21,4,no
+QT-00227,Q-6CB602065BA7D2A9,umbrella,current,Encova,in_force,12,345.45,345.45,2026-06-19,,yes
+QT-00228,Q-6CB602065BA7D2A9,umbrella,quote,Encova,success,12,352.87,352.87,2026-06-21,1,yes
+QT-00229,Q-6CB602065BA7D2A9,umbrella,quote,Liberty Mutual,declined,12,,,2026-06-20,,no
+QT-00230,Q-6CB602065BA7D2A9,umbrella,quote,Erie,declined,12,,,2026-06-25,,no
+QT-00231,Q-889FBB4683139946,motorcycle,current,Progressive,in_force,12,595.26,595.26,2026-07-14,,yes
+QT-00232,Q-889FBB4683139946,motorcycle,quote,Erie,success,12,602.24,602.24,2026-07-18,1,yes
+QT-00233,Q-889FBB4683139946,motorcycle,quote,Progressive,success,6,330.07,660.15,2026-07-17,3,yes
+QT-00234,Q-889FBB4683139946,motorcycle,quote,Foremost,success,12,647.7,647.7,2026-07-19,2,yes
+QT-00235,Q-1C84D5ED17CE409F,home,current,Erie,in_force,12,1228.01,1228.01,2026-09-02,,yes
+QT-00236,Q-1C84D5ED17CE409F,home,quote,Liberty Mutual,success,12,1199.91,1199.91,2026-09-08,2,yes
+QT-00237,Q-1C84D5ED17CE409F,home,quote,Erie,success,12,1363.45,1363.45,2026-09-06,4,no
+QT-00238,Q-1C84D5ED17CE409F,home,quote,Encova,success,12,1246.04,1246.04,2026-09-08,3,yes
+QT-00239,Q-1C84D5ED17CE409F,home,quote,Encompass,not_quoted,12,,,2026-09-08,,no
+QT-00240,Q-1C84D5ED17CE409F,home,quote,Foremost,success,12,1091.07,1091.07,2026-09-04,1,yes
+QT-00241,Q-1C84D5ED17CE409F,auto,current,Erie,in_force,12,1545.37,1545.37,2026-09-02,,yes
+QT-00242,Q-1C84D5ED17CE409F,auto,quote,Encompass,success,6,844.46,1688.91,2026-09-05,5,no
+QT-00243,Q-1C84D5ED17CE409F,auto,quote,Liberty Mutual,success,6,725.41,1450.82,2026-09-05,3,yes
+QT-00244,Q-1C84D5ED17CE409F,auto,quote,Erie,success,12,1222.02,1222.02,2026-09-03,1,yes
+QT-00245,Q-1C84D5ED17CE409F,auto,quote,Progressive,success,6,694.22,1388.44,2026-09-08,2,yes
+QT-00246,Q-1C84D5ED17CE409F,auto,quote,Encova,success,12,1524.91,1524.91,2026-09-05,4,no
+QT-00247,Q-03D8A3746BFD3DD6,home,current,Erie,in_force,12,1259.46,1259.46,2026-08-06,,yes
+QT-00248,Q-03D8A3746BFD3DD6,home,quote,Foremost,success,12,1190.73,1190.73,2026-08-07,4,no
+QT-00249,Q-03D8A3746BFD3DD6,home,quote,Encompass,success,12,1136.68,1136.68,2026-08-10,2,yes
+QT-00250,Q-03D8A3746BFD3DD6,home,quote,Liberty Mutual,success,12,1221.16,1221.16,2026-08-11,5,no
+QT-00251,Q-03D8A3746BFD3DD6,home,quote,Encova,success,12,1190.36,1190.36,2026-08-07,3,yes
+QT-00252,Q-03D8A3746BFD3DD6,home,quote,Erie,success,12,941.0,941.0,2026-08-11,1,yes
+QT-00253,Q-03D8A3746BFD3DD6,auto,current,Erie,in_force,12,1238.74,1238.74,2026-08-06,,yes
+QT-00254,Q-03D8A3746BFD3DD6,auto,quote,Encompass,success,6,682.05,1364.1,2026-08-07,3,yes
+QT-00255,Q-03D8A3746BFD3DD6,auto,quote,Progressive,success,6,611.02,1222.04,2026-08-08,1,yes
+QT-00256,Q-03D8A3746BFD3DD6,auto,quote,Encova,success,12,1362.86,1362.86,2026-08-08,2,yes
+QT-00257,Q-03D8A3746BFD3DD6,auto,quote,Liberty Mutual,success,6,757.87,1515.74,2026-08-10,4,no
+QT-00258,Q-03D8A3746BFD3DD6,auto,quote,Erie,referred,12,,,2026-08-12,,no
+QT-00259,Q-2CE6D78AFAEA2A52,home,current,Erie,in_force,12,1715.46,1715.46,2026-07-29,,yes
+QT-00260,Q-2CE6D78AFAEA2A52,home,quote,Encova,success,12,2113.69,2113.69,2026-08-04,3,yes
+QT-00261,Q-2CE6D78AFAEA2A52,home,quote,Liberty Mutual,declined,12,,,2026-07-30,,no
+QT-00262,Q-2CE6D78AFAEA2A52,home,quote,Foremost,success,12,1554.68,1554.68,2026-08-03,1,yes
+QT-00263,Q-2CE6D78AFAEA2A52,home,quote,Encompass,success,12,1800.0,1800.0,2026-07-31,2,yes
+QT-00264,Q-2CE6D78AFAEA2A52,home,quote,Erie,referred,12,,,2026-08-04,,no
+QT-00265,Q-22BBF69D160E47FA,home,current,Encova,in_force,12,1491.74,1491.74,2026-09-07,,yes
+QT-00266,Q-22BBF69D160E47FA,home,quote,Encompass,not_quoted,12,,,2026-09-13,,no
+QT-00267,Q-22BBF69D160E47FA,home,quote,Erie,success,12,1182.05,1182.05,2026-09-11,1,yes
+QT-00268,Q-22BBF69D160E47FA,home,quote,Encova,success,12,1772.87,1772.87,2026-09-11,4,no
+QT-00269,Q-22BBF69D160E47FA,home,quote,Foremost,success,12,1273.33,1273.33,2026-09-13,2,yes
+QT-00270,Q-22BBF69D160E47FA,home,quote,Liberty Mutual,success,12,1735.69,1735.69,2026-09-11,3,yes
+QT-00271,Q-22BBF69D160E47FA,auto,current,Encova,in_force,12,1825.04,1825.04,2026-09-07,,yes
+QT-00272,Q-22BBF69D160E47FA,auto,quote,Erie,referred,12,,,2026-09-09,,no
+QT-00273,Q-22BBF69D160E47FA,auto,quote,Encova,success,12,1670.86,1670.86,2026-09-11,3,yes
+QT-00274,Q-22BBF69D160E47FA,auto,quote,Encompass,success,6,809.74,1619.48,2026-09-11,2,yes
+QT-00275,Q-22BBF69D160E47FA,auto,quote,Progressive,referred,6,,,2026-09-08,,no
+QT-00276,Q-22BBF69D160E47FA,auto,quote,Liberty Mutual,success,6,744.55,1489.1,2026-09-11,1,yes
+QT-00277,Q-C30DC82B4B73C502,home,current,Erie,in_force,12,1523.01,1523.01,2026-07-28,,yes
+QT-00278,Q-C30DC82B4B73C502,home,quote,Liberty Mutual,success,12,1948.56,1948.56,2026-08-01,2,yes
+QT-00279,Q-C30DC82B4B73C502,home,quote,Encompass,not_quoted,12,,,2026-07-29,,no
+QT-00280,Q-C30DC82B4B73C502,home,quote,Encova,not_quoted,12,,,2026-08-02,,no
+QT-00281,Q-C30DC82B4B73C502,home,quote,Foremost,success,12,1599.53,1599.53,2026-08-01,1,yes
+QT-00282,Q-C30DC82B4B73C502,home,quote,Erie,referred,12,,,2026-07-30,,no
+QT-00283,Q-EF2098EEC66A9F4E,auto,current,Nationwide,in_force,12,1337.0,1337.0,2026-08-06,,yes
+QT-00284,Q-EF2098EEC66A9F4E,auto,quote,Erie,success,12,1014.17,1014.17,2026-08-11,1,yes
+QT-00285,Q-EF2098EEC66A9F4E,auto,quote,Progressive,success,6,555.02,1110.05,2026-08-09,2,yes
+QT-00286,Q-EF2098EEC66A9F4E,auto,quote,Encompass,success,6,663.35,1326.69,2026-08-09,3,yes
+QT-00287,Q-EF2098EEC66A9F4E,auto,quote,Liberty Mutual,success,6,721.92,1443.85,2026-08-11,4,no
+QT-00288,Q-EF2098EEC66A9F4E,auto,quote,Encova,not_quoted,12,,,2026-08-07,,no
+QT-00289,Q-A8C3A9B217F2D3A8,auto,current,Nationwide,in_force,12,1894.34,1894.34,2026-08-14,,yes
+QT-00290,Q-A8C3A9B217F2D3A8,auto,quote,Progressive,declined,6,,,2026-08-15,,no
+QT-00291,Q-A8C3A9B217F2D3A8,auto,quote,Encompass,not_quoted,6,,,2026-08-19,,no
+QT-00292,Q-A8C3A9B217F2D3A8,auto,quote,Erie,success,12,1633.3,1633.3,2026-08-16,1,yes
+QT-00293,Q-A8C3A9B217F2D3A8,auto,quote,Encova,success,12,2092.18,2092.18,2026-08-16,3,yes
+QT-00294,Q-A8C3A9B217F2D3A8,auto,quote,Liberty Mutual,success,6,993.76,1987.53,2026-08-19,2,yes
+QT-00295,Q-411862C9F6985E8A,home,current,Nationwide,in_force,12,1631.4,1631.4,2026-09-11,,yes
+QT-00296,Q-411862C9F6985E8A,home,quote,Encova,success,12,1356.18,1356.18,2026-09-12,1,yes
+QT-00297,Q-411862C9F6985E8A,home,quote,Erie,success,12,1567.74,1567.74,2026-09-13,2,yes
+QT-00298,Q-411862C9F6985E8A,home,quote,Liberty Mutual,declined,12,,,2026-09-17,,no
+QT-00299,Q-411862C9F6985E8A,home,quote,Foremost,success,12,1691.29,1691.29,2026-09-15,3,yes
+QT-00300,Q-411862C9F6985E8A,home,quote,Encompass,declined,12,,,2026-09-14,,no
+QT-00301,Q-1F2B80DA59FB045A,home,current,Erie,in_force,12,2028.02,2028.02,2026-08-27,,yes
+QT-00302,Q-1F2B80DA59FB045A,home,quote,Foremost,success,12,1804.37,1804.37,2026-09-01,2,yes
+QT-00303,Q-1F2B80DA59FB045A,home,quote,Encova,success,12,2406.24,2406.24,2026-08-29,4,no
+QT-00304,Q-1F2B80DA59FB045A,home,quote,Erie,success,12,2049.62,2049.62,2026-08-29,3,yes
+QT-00305,Q-1F2B80DA59FB045A,home,quote,Liberty Mutual,success,12,2564.02,2564.02,2026-08-31,5,no
+QT-00306,Q-1F2B80DA59FB045A,home,quote,Encompass,success,12,1723.29,1723.29,2026-08-28,1,yes
+QT-00307,Q-4E41585BB4644658,home,current,State Auto,in_force,12,1505.55,1505.55,2026-07-01,,yes
+QT-00308,Q-4E41585BB4644658,home,quote,Erie,success,12,1260.32,1260.32,2026-07-04,2,yes
+QT-00309,Q-4E41585BB4644658,home,quote,Encompass,not_quoted,12,,,2026-07-04,,no
+QT-00310,Q-4E41585BB4644658,home,quote,Encova,declined,12,,,2026-07-06,,no
+QT-00311,Q-4E41585BB4644658,home,quote,Foremost,success,12,1486.23,1486.23,2026-07-04,3,yes
+QT-00312,Q-4E41585BB4644658,home,quote,Liberty Mutual,success,12,1238.77,1238.77,2026-07-04,1,yes
+QT-00313,Q-4E41585BB4644658,auto,current,State Auto,in_force,12,1352.81,1352.81,2026-07-01,,yes
+QT-00314,Q-4E41585BB4644658,auto,quote,Progressive,success,6,796.49,1592.97,2026-07-05,5,no
+QT-00315,Q-4E41585BB4644658,auto,quote,Erie,success,12,1193.84,1193.84,2026-07-02,1,yes
+QT-00316,Q-4E41585BB4644658,auto,quote,Encompass,success,6,761.66,1523.33,2026-07-07,3,yes
+QT-00317,Q-4E41585BB4644658,auto,quote,Encova,success,12,1576.55,1576.55,2026-07-07,4,no
+QT-00318,Q-4E41585BB4644658,auto,quote,Liberty Mutual,success,6,661.11,1322.22,2026-07-05,2,yes
+QT-00319,Q-7229D75C83BC370E,auto,current,Erie,in_force,12,2193.88,2193.88,2026-09-29,,yes
+QT-00320,Q-7229D75C83BC370E,auto,quote,Encompass,success,6,908.62,1817.25,2026-10-04,2,yes
+QT-00321,Q-7229D75C83BC370E,auto,quote,Erie,success,12,1540.37,1540.37,2026-10-05,1,yes
+QT-00322,Q-7229D75C83BC370E,auto,quote,Progressive,not_quoted,6,,,2026-10-01,,no
+QT-00323,Q-7229D75C83BC370E,auto,quote,Liberty Mutual,not_quoted,6,,,2026-10-05,,no
+QT-00324,Q-7229D75C83BC370E,auto,quote,Encova,success,12,1966.63,1966.63,2026-10-03,3,yes
+QT-00325,Q-0C0CEB9EFDDE5A6D,home,current,Encova,in_force,12,1390.51,1390.51,2026-08-31,,yes
+QT-00326,Q-0C0CEB9EFDDE5A6D,home,quote,Encompass,success,12,1286.19,1286.19,2026-09-02,1,yes
+QT-00327,Q-0C0CEB9EFDDE5A6D,home,quote,Erie,declined,12,,,2026-09-04,,no
+QT-00328,Q-0C0CEB9EFDDE5A6D,home,quote,Liberty Mutual,success,12,1427.68,1427.68,2026-09-03,2,yes
+QT-00329,Q-0C0CEB9EFDDE5A6D,home,quote,Encova,declined,12,,,2026-09-06,,no
+QT-00330,Q-0C0CEB9EFDDE5A6D,home,quote,Foremost,success,12,1502.48,1502.48,2026-09-03,3,yes
+QT-00331,Q-0C0CEB9EFDDE5A6D,auto,current,Encova,in_force,12,1482.09,1482.09,2026-08-31,,yes
+QT-00332,Q-0C0CEB9EFDDE5A6D,auto,quote,Liberty Mutual,success,6,769.52,1539.04,2026-09-04,2,yes
+QT-00333,Q-0C0CEB9EFDDE5A6D,auto,quote,Progressive,declined,6,,,2026-09-05,,no
+QT-00334,Q-0C0CEB9EFDDE5A6D,auto,quote,Encova,not_quoted,12,,,2026-09-03,,no
+QT-00335,Q-0C0CEB9EFDDE5A6D,auto,quote,Encompass,success,6,874.12,1748.25,2026-09-01,3,yes
+QT-00336,Q-0C0CEB9EFDDE5A6D,auto,quote,Erie,success,12,1416.75,1416.75,2026-09-01,1,yes
+QT-00337,Q-F05468FA743929E8,auto,current,Nationwide,in_force,12,1362.48,1362.48,2026-07-03,,yes
+QT-00338,Q-F05468FA743929E8,auto,quote,Encova,success,12,1401.1,1401.1,2026-07-09,3,yes
+QT-00339,Q-F05468FA743929E8,auto,quote,Encompass,success,6,698.92,1397.84,2026-07-07,2,yes
+QT-00340,Q-F05468FA743929E8,auto,quote,Erie,success,12,1253.02,1253.02,2026-07-08,1,yes
+QT-00341,Q-F05468FA743929E8,auto,quote,Progressive,declined,6,,,2026-07-06,,no
+QT-00342,Q-F05468FA743929E8,auto,quote,Liberty Mutual,declined,6,,,2026-07-08,,no
+QT-00343,Q-F05468FA743929E8,renters,current,Nationwide,in_force,12,213.44,213.44,2026-07-03,,yes
+QT-00344,Q-F05468FA743929E8,renters,quote,Erie,success,12,182.38,182.38,2026-07-09,2,yes
+QT-00345,Q-F05468FA743929E8,renters,quote,Foremost,success,12,159.2,159.2,2026-07-08,1,yes
+QT-00346,Q-F05468FA743929E8,renters,quote,Progressive,success,12,199.17,199.17,2026-07-04,4,no
+QT-00347,Q-F05468FA743929E8,renters,quote,Liberty Mutual,success,12,196.21,196.21,2026-07-07,3,yes
+QT-00348,Q-9B00032E72616922,home,current,Progressive,in_force,12,1257.62,1257.62,2026-08-19,,yes
+QT-00349,Q-9B00032E72616922,home,quote,Erie,success,12,1149.85,1149.85,2026-08-25,2,yes
+QT-00350,Q-9B00032E72616922,home,quote,Encova,success,12,1517.14,1517.14,2026-08-23,5,no
+QT-00351,Q-9B00032E72616922,home,quote,Liberty Mutual,success,12,1433.95,1433.95,2026-08-21,4,no
+QT-00352,Q-9B00032E72616922,home,quote,Foremost,success,12,1403.67,1403.67,2026-08-22,3,yes
+QT-00353,Q-9B00032E72616922,home,quote,Encompass,success,12,1129.08,1129.08,2026-08-22,1,yes
+QT-00354,Q-9B00032E72616922,auto,current,Progressive,in_force,12,1351.4,1351.4,2026-08-19,,yes
+QT-00355,Q-9B00032E72616922,auto,quote,Liberty Mutual,declined,6,,,2026-08-20,,no
+QT-00356,Q-9B00032E72616922,auto,quote,Encompass,not_quoted,6,,,2026-08-25,,no
+QT-00357,Q-9B00032E72616922,auto,quote,Progressive,referred,6,,,2026-08-22,,no
+QT-00358,Q-9B00032E72616922,auto,quote,Erie,success,12,1398.42,1398.42,2026-08-20,1,yes
+QT-00359,Q-9B00032E72616922,auto,quote,Encova,declined,12,,,2026-08-22,,no
+QT-00360,Q-83976DDE7FFE600B,home,current,Encova,in_force,12,1394.08,1394.08,2026-09-07,,yes
+QT-00361,Q-83976DDE7FFE600B,home,quote,Erie,success,12,1336.4,1336.4,2026-09-08,2,yes
+QT-00362,Q-83976DDE7FFE600B,home,quote,Foremost,not_quoted,12,,,2026-09-09,,no
+QT-00363,Q-83976DDE7FFE600B,home,quote,Liberty Mutual,not_quoted,12,,,2026-09-13,,no
+QT-00364,Q-83976DDE7FFE600B,home,quote,Encova,not_quoted,12,,,2026-09-13,,no
+QT-00365,Q-83976DDE7FFE600B,home,quote,Encompass,success,12,1282.25,1282.25,2026-09-12,1,yes
+QT-00366,Q-83976DDE7FFE600B,auto,current,Encova,in_force,12,1815.8,1815.8,2026-09-07,,yes
+QT-00367,Q-83976DDE7FFE600B,auto,quote,Encompass,success,6,717.28,1434.57,2026-09-13,1,yes
+QT-00368,Q-83976DDE7FFE600B,auto,quote,Encova,success,12,1914.5,1914.5,2026-09-09,4,no
+QT-00369,Q-83976DDE7FFE600B,auto,quote,Liberty Mutual,declined,6,,,2026-09-11,,no
+QT-00370,Q-83976DDE7FFE600B,auto,quote,Erie,success,12,1769.32,1769.32,2026-09-08,3,yes
+QT-00371,Q-83976DDE7FFE600B,auto,quote,Progressive,success,6,780.08,1560.16,2026-09-09,2,yes
+QT-00372,Q-649D451EF981F8AA,auto,current,Erie,in_force,12,1646.85,1646.85,2026-07-06,,yes
+QT-00373,Q-649D451EF981F8AA,auto,quote,Encova,success,12,1783.97,1783.97,2026-07-10,3,yes
+QT-00374,Q-649D451EF981F8AA,auto,quote,Liberty Mutual,success,6,993.06,1986.12,2026-07-09,4,no
+QT-00375,Q-649D451EF981F8AA,auto,quote,Progressive,not_quoted,6,,,2026-07-11,,no
+QT-00376,Q-649D451EF981F8AA,auto,quote,Encompass,success,6,825.57,1651.13,2026-07-09,2,yes
+QT-00377,Q-649D451EF981F8AA,auto,quote,Erie,success,12,1556.85,1556.85,2026-07-11,1,yes
+QT-00378,Q-649D451EF981F8AA,renters,current,Erie,in_force,12,200.72,200.72,2026-07-06,,yes
+QT-00379,Q-649D451EF981F8AA,renters,quote,Liberty Mutual,success,12,214.45,214.45,2026-07-08,3,yes
+QT-00380,Q-649D451EF981F8AA,renters,quote,Progressive,success,12,196.58,196.58,2026-07-12,2,yes
+QT-00381,Q-649D451EF981F8AA,renters,quote,Erie,success,12,178.72,178.72,2026-07-07,1,yes
+QT-00382,Q-649D451EF981F8AA,renters,quote,Foremost,success,12,215.26,215.26,2026-07-09,4,no
+QT-00383,Q-3C19E070E013F3B7,home,current,Erie,in_force,12,3260.0,3260.0,2026-10-02,,yes
+QT-00384,Q-3C19E070E013F3B7,auto,current,Erie,in_force,12,3912.0,3912.0,2026-10-02,,yes
+QT-00385,Q-3C19E070E013F3B7,umbrella,current,Erie,in_force,12,468.0,468.0,2026-10-02,,yes
+QT-00386,Q-3C19E070E013F3B7,home,quote,Foremost,success,12,2318.0,2318.0,2026-10-02,1,yes
+QT-00387,Q-3C19E070E013F3B7,auto,quote,Foremost,not_quoted,12,,,2026-10-02,,no
+QT-00388,Q-3C19E070E013F3B7,home,quote,Encova,success,12,2794.0,2794.0,2026-10-02,2,yes
+QT-00389,Q-3C19E070E013F3B7,auto,quote,Encova,success,12,3488.0,3488.0,2026-10-02,3,yes
+QT-00390,Q-3C19E070E013F3B7,umbrella,quote,Encova,success,12,402.0,402.0,2026-10-02,1,yes
+QT-00391,Q-3C19E070E013F3B7,home,quote,Erie,success,12,2986.0,2986.0,2026-10-02,3,yes
+QT-00392,Q-3C19E070E013F3B7,auto,quote,Erie,success,12,3720.0,3720.0,2026-10-02,4,no
+QT-00393,Q-3C19E070E013F3B7,umbrella,quote,Erie,success,12,412.0,412.0,2026-10-02,2,yes
+QT-00394,Q-3C19E070E013F3B7,auto,quote,Progressive,success,6,1563.4,3126.8,2026-10-02,1,yes
+QT-00395,Q-3C19E070E013F3B7,home,quote,Progressive,declined,12,,,2026-10-02,,no
+QT-00396,Q-3C19E070E013F3B7,home,quote,Liberty Mutual,success,12,3105.0,3105.0,2026-10-02,4,no
+QT-00397,Q-3C19E070E013F3B7,auto,quote,Liberty Mutual,success,6,1897.12,3794.24,2026-10-02,5,no
+QT-00398,Q-3C19E070E013F3B7,umbrella,quote,Liberty Mutual,success,12,455.0,455.0,2026-10-02,3,yes
+QT-00399,Q-3C19E070E013F3B7,auto,quote,Encompass,success,6,1702.55,3405.1,2026-10-02,2,yes
+QT-00400,Q-3C19E070E013F3B7,home,quote,Encompass,success,12,3349.0,3349.0,2026-10-02,5,no

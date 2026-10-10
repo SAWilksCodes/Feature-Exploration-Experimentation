@@ -1,0 +1,226 @@
+<style>
+.cq { display: flex; flex-direction: column; gap: var(--cds-gap-lg); font-family: var(--font-anthropic-sans); }
+.cq-title { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); margin: 0; }
+.cq-sub { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); margin: var(--cds-gap-xs) 0 0; }
+.cq-takeaway { margin: var(--cds-gap-sm) 0 0; font-size: var(--cds-font-size-body); }
+.cq-tabs { display: flex; flex-wrap: wrap; gap: var(--cds-gap-xs); border-bottom: 1px solid var(--color-border-line); }
+.cq-tab { all: unset; cursor: pointer; padding: var(--cds-pad-sm) var(--cds-pad-md); color: var(--color-fg-muted); font-size: var(--cds-font-size-body); border-bottom: 2px solid transparent; margin-bottom: -1px; }
+.cq-tab[aria-selected="true"] { color: var(--color-fg); border-bottom-color: var(--color-fg); }
+.cq-tab:focus-visible { outline: 2px solid var(--color-fg); outline-offset: 2px; }
+.cq-page { display: flex; flex-direction: column; gap: var(--cds-gap-lg); }
+.cq-page[hidden] { display: none; }
+.cq-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 10rem), 1fr)); gap: var(--cds-gap-md); }
+.cq-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 24rem), 1fr)); gap: var(--cds-gap-md); }
+.cq-card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); min-width: 0; }
+.cq-label { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+.cq-value { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); font-variant-numeric: tabular-nums; margin-top: var(--cds-gap-xs); min-height: 1.4em; }
+.cq-delta { font-size: var(--cds-font-size-caption); margin-top: var(--cds-gap-xs); min-height: 1.2em; }
+.cq-h { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); margin: 0; }
+.cq-note { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); margin: var(--cds-gap-xs) 0 var(--cds-gap-md); }
+.cq-chart { position: relative; min-height: 220px; }
+.cq-tip { position: absolute; z-index: 2; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); border-radius: var(--cds-radius); box-shadow: var(--cds-shadow-popover); padding: var(--cds-pad-xs) var(--cds-pad-sm); font-size: var(--cds-font-size-caption); pointer-events: none; display: none; white-space: nowrap; }
+.cq-tip-k { color: var(--cds-text-secondary); }
+.cq-scroll { max-height: 26rem; overflow: auto; }
+.cq-table { width: 100%; border-collapse: collapse; font-size: var(--cds-font-size-caption); font-variant-numeric: tabular-nums; }
+.cq-table th { position: sticky; top: 0; background: var(--color-panel); text-align: left; font-weight: var(--cds-font-weight-medium); color: var(--color-fg-muted); padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); white-space: nowrap; }
+.cq-table th.cq-num, .cq-table td.cq-num { text-align: right; }
+.cq-table td { padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); vertical-align: top; }
+.cq-table tr.cq-muted td { color: var(--color-fg-muted); }
+.cq-bad { color: var(--color-bad); }
+.cq-ok { color: var(--color-ok); }
+.cq-warn { color: var(--color-warn); }
+.cq-barcell { display: flex; align-items: center; gap: var(--cds-gap-sm); justify-content: flex-end; }
+.cq-bar { height: 8px; border-radius: 4px; background: var(--cds-chart-muted); flex: none; }
+.cq-pill { display: inline-block; padding: 0 var(--cds-pad-xs); border-radius: var(--cds-radius); border: 1px solid var(--color-border-line); white-space: nowrap; }
+.cq-controls { display: flex; flex-wrap: wrap; gap: var(--cds-gap-sm); align-items: center; }
+.cq-select { padding: var(--cds-pad-xs) var(--cds-pad-sm); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); background: var(--color-bg); color: var(--color-fg); font: inherit; }
+.cq-dot { display: inline-block; width: .5rem; height: .5rem; border-radius: 50%; margin-right: var(--cds-gap-xs); vertical-align: middle; }
+.cq-dot-document { background: var(--color-ok); }
+.cq-dot-calculated { background: var(--cds-chart-reference); }
+.cq-dot-confirm { background: var(--color-warn); }
+.cq-cell { all: unset; cursor: pointer; white-space: nowrap; }
+.cq-cell:focus-visible { outline: 2px solid var(--color-fg); outline-offset: 2px; }
+.cq-legend { display: flex; flex-wrap: wrap; gap: var(--cds-gap-md); color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); margin-bottom: var(--cds-gap-sm); }
+.cq-picked { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); margin-top: var(--cds-gap-sm); min-height: 1.2em; }
+@media (max-width: 640px) { .cq-hide-narrow { display: none; } }
+.cq-fail { display: flex; align-items: center; justify-content: center; gap: var(--cds-gap-xs); color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); min-height: inherit; }
+.cq-fail::before { content: ""; width: .375rem; height: .375rem; border-radius: 50%; background: var(--color-bad); }
+[data-dash-source-state=empty] { color: transparent; }
+[data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
+</style>
+
+<div class="cq">
+  <header>
+    <h1 class="cq-title" id="title">Case &amp; Quote Desk</h1>
+    <p class="cq-sub">Synthetic data built on the Case Desk and Quote Desk data model · as of Oct 10, 2026</p>
+    <p class="cq-takeaway dash-skeleton" id="takeaway" data-source="pipeline_kpis">—</p>
+  </header>
+
+  <nav class="cq-tabs" role="tablist" aria-label="Views">
+    <button class="cq-tab" role="tab" id="tab-pipeline" data-page="pipeline" aria-controls="pipeline">Pipeline</button>
+    <button class="cq-tab" role="tab" id="tab-quotes" data-page="quotes" aria-controls="quotes">Quote results</button>
+    <button class="cq-tab" role="tab" id="tab-case" data-page="case" aria-controls="case">Case comparison</button>
+    <button class="cq-tab" role="tab" id="tab-parser" data-page="parser" aria-controls="parser">Parser accuracy</button>
+  </nav>
+
+  <!-- Pipeline -->
+  <section class="cq-page" id="pipeline" role="tabpanel" aria-labelledby="tab-pipeline">
+    <div class="cq-tiles">
+      <div class="cq-card"><div class="cq-label">Open cases</div><div class="cq-value dash-skeleton" data-source="pipeline_kpis" data-field="open_cases" data-row="0">—</div></div>
+      <div class="cq-card"><div class="cq-label">Next action overdue</div><div class="cq-value dash-skeleton" data-source="pipeline_kpis" data-field="overdue" data-row="0">—</div></div>
+      <div class="cq-card"><div class="cq-label">Waiting on review</div><div class="cq-value dash-skeleton" data-source="pipeline_kpis" data-field="needs_review" data-row="0">—</div></div>
+      <div class="cq-card"><div class="cq-label">Avg days open</div><div class="cq-value dash-skeleton" data-source="pipeline_kpis" data-field="avg_days_open" data-row="0">—</div></div>
+      <div class="cq-card"><div class="cq-label">Win rate, decided cases</div><div class="cq-value dash-skeleton" data-source="pipeline_kpis" data-field="win_rate" data-row="0">—</div></div>
+    </div>
+    <div class="cq-card" id="stage-card">
+      <h2 class="cq-h">Cases by stage</h2>
+      <p class="cq-note">Every case, in pipeline order. Hover a bar for the average days cases have sat in that stage.</p>
+      <div class="cq-chart" id="stage-chart" data-source="by_stage"></div>
+    </div>
+    <div class="cq-card" id="open-card">
+      <h2 class="cq-h">Open cases and next actions</h2>
+      <p class="cq-note">Soonest due first. Overdue dates are in red.</p>
+      <div class="cq-controls" style="margin-bottom: var(--cds-gap-sm)">
+        <select class="cq-select" id="owner-filter" aria-label="Owner"></select>
+      </div>
+      <div class="cq-scroll">
+        <table class="cq-table" id="open-table" data-source="cases" data-row-key="case_id">
+          <thead><tr>
+            <th data-field="client">Client</th>
+            <th data-field="lines" class="cq-hide-narrow">Lines</th>
+            <th data-field="stage">Stage</th>
+            <th data-field="owner" class="cq-hide-narrow">Owner</th>
+            <th data-field="days_in_stage" class="cq-num">Days in stage</th>
+            <th data-field="next_action" class="cq-hide-narrow">Next action</th>
+            <th data-field="next_action_due">Due</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quote results -->
+  <section class="cq-page" id="quotes" role="tabpanel" aria-labelledby="tab-quotes" hidden>
+    <div class="cq-controls">
+      <select class="cq-select" id="line-filter" aria-label="Line of business"></select>
+    </div>
+    <div class="cq-tiles">
+      <div class="cq-card"><div class="cq-label">Quotes requested</div><div class="cq-value dash-skeleton q-tile" data-source="quote_kpis" data-field="requested">—</div></div>
+      <div class="cq-card"><div class="cq-label">Returned a premium</div><div class="cq-value dash-skeleton q-tile" data-source="quote_kpis" data-field="quote_rate">—</div></div>
+      <div class="cq-card"><div class="cq-label">Avg savings, best vs current</div><div class="cq-value dash-skeleton q-tile" data-source="savings_by_line" data-field="avg_savings">—</div><div class="cq-delta"><span class="q-tile" data-source="savings_by_line" data-field="avg_savings_pct"></span> of the current premium</div></div>
+      <div class="cq-card"><div class="cq-label">Comparisons that beat current</div><div class="cq-value dash-skeleton q-tile" data-source="savings_by_line" data-field="share_saving">—</div></div>
+    </div>
+    <div class="cq-card" id="carrier-card">
+      <h2 class="cq-h">Results by carrier</h2>
+      <p class="cq-note">Top 3 rate counts returned quotes on finished comparisons. Win rate counts cases sold or lost where the carrier returned a quote.</p>
+      <div class="cq-scroll">
+        <table class="cq-table" id="carrier-table" data-source="carrier_results" data-row-key="line,carrier">
+          <thead><tr>
+            <th data-field="carrier">Carrier</th>
+            <th data-field="requested" class="cq-num cq-hide-narrow">Requested</th>
+            <th data-field="declined" class="cq-num cq-hide-narrow">Declined</th>
+            <th data-field="quote_rate" class="cq-num">Quote rate</th>
+            <th data-field="top3_rate" class="cq-num">Top 3 rate</th>
+            <th data-field="wins" class="cq-num cq-hide-narrow">Wins</th>
+            <th data-field="win_rate" class="cq-num">Win rate</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+    <div class="cq-card" id="savings-card">
+      <h2 class="cq-h">Savings by line</h2>
+      <p class="cq-note">Average annual savings of the cheapest quote over the current premium, on finished comparisons.</p>
+      <div class="cq-chart" id="savings-chart" data-source="savings_by_line"></div>
+    </div>
+  </section>
+
+  <!-- Case comparison -->
+  <section class="cq-page" id="case" role="tabpanel" aria-labelledby="tab-case" hidden>
+    <div class="cq-card" id="case-head">
+      <div class="cq-label">Featured case · <span data-source="cases" data-field="case_id" data-where="case_id=Q-3C19E070E013F3B7">—</span></div>
+      <div class="cq-value dash-skeleton" data-source="cases" data-field="client" data-where="case_id=Q-3C19E070E013F3B7">—</div>
+      <div class="cq-delta"><span data-source="cases" data-field="lines" data-where="case_id=Q-3C19E070E013F3B7">—</span> · current carrier <span data-source="cases" data-field="current_carrier" data-where="case_id=Q-3C19E070E013F3B7">—</span></div>
+    </div>
+    <div class="cq-card" id="columns-card">
+      <h2 class="cq-h">Totals by carrier</h2>
+      <p class="cq-note">Annual totals across the lines each carrier quoted. Savings show only where a carrier quotes the same lines as the current policy.</p>
+      <table class="cq-table" id="columns-table" data-source="case_columns" data-row-key="column">
+        <thead><tr>
+          <th data-field="column">Carrier</th>
+          <th data-field="lines">Lines quoted</th>
+          <th data-field="total_annual" class="cq-num">Annual total</th>
+          <th data-field="change_vs_current" class="cq-num">Change vs current</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <div class="cq-grid" id="line-cards"></div>
+    <div class="cq-card" id="coverage-card">
+      <h2 class="cq-h">Coverages and where each value came from</h2>
+      <p class="cq-note">Select a value to see its source document and page.</p>
+      <div class="cq-legend">
+        <span><span class="cq-dot cq-dot-document"></span>Found in document</span>
+        <span><span class="cq-dot cq-dot-calculated"></span>Calculated</span>
+        <span><span class="cq-dot cq-dot-confirm"></span>Needs confirmation</span>
+      </div>
+      <div class="cq-controls" style="margin-bottom: var(--cds-gap-sm)">
+        <select class="cq-select" id="cov-line" aria-label="Line"><option value="auto">Auto</option><option value="home">Home</option></select>
+      </div>
+      <div class="cq-scroll" id="coverage-wrap" data-source="case_values"></div>
+      <div class="cq-picked" id="coverage-picked"></div>
+    </div>
+  </section>
+
+  <!-- Parser accuracy -->
+  <section class="cq-page" id="parser" role="tabpanel" aria-labelledby="tab-parser" hidden>
+    <div class="cq-tiles">
+      <div class="cq-card"><div class="cq-label">Accuracy, latest week</div><div class="cq-value dash-skeleton" data-source="parser_kpis" data-field="last_week_accuracy" data-row="0">—</div><div class="cq-delta" data-source="parser_kpis" data-field="change" data-row="0"></div></div>
+      <div class="cq-card"><div class="cq-label">Values to confirm, latest week</div><div class="cq-value dash-skeleton" data-source="parser_kpis" data-field="to_confirm" data-row="0">—</div></div>
+      <div class="cq-card"><div class="cq-label">Learned rules disabled</div><div class="cq-value dash-skeleton" data-source="parser_kpis" data-field="rules_disabled" data-row="0">—</div></div>
+    </div>
+    <div class="cq-card" id="trend-card">
+      <h2 class="cq-h">Accuracy by carrier, last 8 weeks</h2>
+      <p class="cq-note">Share of extracted fields left unedited when the comparison sheet was generated.</p>
+      <div class="cq-chart" id="trend-chart" data-source="parser_trend" style="min-height: 280px"></div>
+    </div>
+    <div class="cq-grid">
+      <div class="cq-card" id="parser-carriers-card">
+        <h2 class="cq-h">By carrier</h2>
+        <p class="cq-note">Totals over 8 weeks; change is latest week against the first.</p>
+        <table class="cq-table" id="parser-table" data-source="parser_carriers" data-row-key="carrier">
+          <thead><tr>
+            <th data-field="carrier">Carrier</th>
+            <th data-field="extracted" class="cq-num cq-hide-narrow">Extracted</th>
+            <th data-field="overridden" class="cq-num cq-hide-narrow">Edited</th>
+            <th data-field="last_week" class="cq-num">Latest week</th>
+            <th data-field="change" class="cq-num">Change</th>
+            <th data-field="to_confirm" class="cq-num">To confirm</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div class="cq-card" id="rules-card">
+        <h2 class="cq-h">Learned rules</h2>
+        <p class="cq-note">A rule turns itself off at 2 or more misses with more misses than hits.</p>
+        <div class="cq-scroll">
+          <table class="cq-table" id="rules-table" data-source="parser_rules" data-row-key="rule_id">
+            <thead><tr>
+              <th data-field="rule_id">Rule</th>
+              <th data-field="carrier">Carrier</th>
+              <th data-field="field" class="cq-hide-narrow">Field</th>
+              <th data-field="hits" class="cq-num">Hits</th>
+              <th data-field="misses" class="cq-num">Misses</th>
+              <th data-field="status" data-source="rules_status">Status</th>
+            </tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<script src="calcs.js"></script>
+<script src="views.js"></script>

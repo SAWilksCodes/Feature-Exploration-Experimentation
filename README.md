@@ -76,6 +76,19 @@ What I learned:
 
 The sample uses a file because all three Supabase projects on this account are paused. Restore one and the dashboard could switch to a live SQL query.
 
+### Case & Quote Desk rebuild: `dashboards/case-quote-desk`
+
+This rebuilds the earlier Case Desk and Quote Desk views as one Dashboard artifact with four tabs:
+
+| Tab | What it answers |
+| --- | --- |
+| Pipeline | Open cases, overdue next actions, cases waiting on review, cases by stage, and an open-case table filterable by owner |
+| Quote results | Quote rate, top-3 rate and win rate by carrier, and savings of the best quote over current per line. A line-of-business filter applies to every card on the tab |
+| Case comparison | One featured case: totals by carrier ("Lines differ" where a carrier didn't quote the same lines), per-line ranking with sheet status, and a coverage grid where each value has a source dot (green: found in a document, blue: calculated, amber: needs confirmation). Click a value to see its document and page |
+| Parser accuracy | Weekly accuracy per carrier, values to confirm, and learned rules that disabled themselves (2 or more misses and more misses than hits) |
+
+**All data is synthetic.** `generate.py` writes it to match the Case Desk and Quote Desk data model: the lines and carriers, 6-month premiums annualized, the top-3 rule, and declines. Real client data stays on the PC, per the agency rule. Every computed number is a named calculation in `page/calcs.js`, which a reader can open in Sources.
+
 ## 3. Claude Motion
 
 Motion makes short animations as code, such as explainers, animated charts, and walkthroughs, and exports them as MP4. It is not a video-generation model, so it can't make realistic footage or people. Because the animation is code, you can change one word, number, or timing and leave the rest unchanged. Docs: <https://support.claude.com/en/articles/17454997-get-started-with-claude-motion>

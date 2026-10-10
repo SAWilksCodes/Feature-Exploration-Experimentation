@@ -1,0 +1,79 @@
+case_id,role,carrier,line,field,value,source,document,page
+Q-3C19E070E013F3B7,current,Erie,auto,Liability (BI/PD),250/500/100,calculated,,
+Q-3C19E070E013F3B7,current,Erie,auto,UM / UIM,250/500,document,Erie auto declarations.pdf,2
+Q-3C19E070E013F3B7,current,Erie,auto,Medical payments,"$5,000",document,Erie auto declarations.pdf,2
+Q-3C19E070E013F3B7,current,Erie,auto,Comprehensive deductible,$500,document,Erie auto declarations.pdf,2
+Q-3C19E070E013F3B7,current,Erie,auto,Collision deductible,$500,document,Erie auto declarations.pdf,2
+Q-3C19E070E013F3B7,current,Erie,auto,Rental,$30/day,document,Erie auto declarations.pdf,2
+Q-3C19E070E013F3B7,current,Erie,auto,Towing,Included,document,Erie auto declarations.pdf,2
+Q-3C19E070E013F3B7,quote,Erie,auto,Liability (BI/PD),250/500/100,calculated,,
+Q-3C19E070E013F3B7,quote,Erie,auto,UM / UIM,250/500,document,Erie auto quote.pdf,2
+Q-3C19E070E013F3B7,quote,Erie,auto,Medical payments,"$5,000",document,Erie auto quote.pdf,2
+Q-3C19E070E013F3B7,quote,Erie,auto,Comprehensive deductible,$500,document,Erie auto quote.pdf,2
+Q-3C19E070E013F3B7,quote,Erie,auto,Collision deductible,$500,document,Erie auto quote.pdf,2
+Q-3C19E070E013F3B7,quote,Erie,auto,Rental,$30/day,document,Erie auto quote.pdf,2
+Q-3C19E070E013F3B7,quote,Erie,auto,Towing,Included,document,Erie auto quote.pdf,2
+Q-3C19E070E013F3B7,quote,Encova,auto,Liability (BI/PD),250/500/100,calculated,,
+Q-3C19E070E013F3B7,quote,Encova,auto,UM / UIM,250/500,document,Encova auto quote.pdf,2
+Q-3C19E070E013F3B7,quote,Encova,auto,Medical payments,"$5,000",document,Encova auto quote.pdf,2
+Q-3C19E070E013F3B7,quote,Encova,auto,Comprehensive deductible,$500,document,Encova auto quote.pdf,2
+Q-3C19E070E013F3B7,quote,Encova,auto,Collision deductible,"$1,000",document,Encova auto quote.pdf,2
+Q-3C19E070E013F3B7,quote,Encova,auto,Rental,$40/day,confirm,Encova auto quote.pdf,2
+Q-3C19E070E013F3B7,quote,Encova,auto,Towing,Included,document,Encova auto quote.pdf,2
+Q-3C19E070E013F3B7,quote,Progressive,auto,Liability (BI/PD),250/500/100,calculated,,
+Q-3C19E070E013F3B7,quote,Progressive,auto,UM / UIM,100/300,confirm,Progressive auto quote.pdf,2
+Q-3C19E070E013F3B7,quote,Progressive,auto,Medical payments,"$5,000",document,Progressive auto quote.pdf,2
+Q-3C19E070E013F3B7,quote,Progressive,auto,Comprehensive deductible,$500,document,Progressive auto quote.pdf,2
+Q-3C19E070E013F3B7,quote,Progressive,auto,Collision deductible,$500,document,Progressive auto quote.pdf,2
+Q-3C19E070E013F3B7,quote,Progressive,auto,Rental,$30/day,document,Progressive auto quote.pdf,2
+Q-3C19E070E013F3B7,quote,Progressive,auto,Towing,Included,document,Progressive auto quote.pdf,2
+Q-3C19E070E013F3B7,quote,Liberty Mutual,auto,Liability (BI/PD),250/500/100,calculated,,
+Q-3C19E070E013F3B7,quote,Liberty Mutual,auto,UM / UIM,250/500,document,Liberty Mutual auto quote.pdf,2
+Q-3C19E070E013F3B7,quote,Liberty Mutual,auto,Medical payments,"$2,000",document,Liberty Mutual auto quote.pdf,2
+Q-3C19E070E013F3B7,quote,Liberty Mutual,auto,Comprehensive deductible,$500,document,Liberty Mutual auto quote.pdf,2
+Q-3C19E070E013F3B7,quote,Liberty Mutual,auto,Collision deductible,$500,document,Liberty Mutual auto quote.pdf,2
+Q-3C19E070E013F3B7,quote,Liberty Mutual,auto,Rental,Not included,document,Liberty Mutual auto quote.pdf,2
+Q-3C19E070E013F3B7,quote,Liberty Mutual,auto,Towing,Included,document,Liberty Mutual auto quote.pdf,2
+Q-3C19E070E013F3B7,quote,Encompass,auto,Liability (BI/PD),250/500/100,calculated,,
+Q-3C19E070E013F3B7,quote,Encompass,auto,UM / UIM,250/500,document,Encompass auto quote.pdf,2
+Q-3C19E070E013F3B7,quote,Encompass,auto,Medical payments,"$5,000",document,Encompass auto quote.pdf,2
+Q-3C19E070E013F3B7,quote,Encompass,auto,Comprehensive deductible,"$1,000",document,Encompass auto quote.pdf,2
+Q-3C19E070E013F3B7,quote,Encompass,auto,Collision deductible,"$1,000",document,Encompass auto quote.pdf,2
+Q-3C19E070E013F3B7,quote,Encompass,auto,Rental,$30/day,document,Encompass auto quote.pdf,2
+Q-3C19E070E013F3B7,quote,Encompass,auto,Towing,Not included,confirm,Encompass auto quote.pdf,2
+Q-3C19E070E013F3B7,current,Erie,home,Dwelling,"$412,000",document,Erie home declarations.pdf,1
+Q-3C19E070E013F3B7,current,Erie,home,Other structures,"$41,200",calculated,,
+Q-3C19E070E013F3B7,current,Erie,home,Personal property,"$288,400",document,Erie home declarations.pdf,1
+Q-3C19E070E013F3B7,current,Erie,home,Loss of use,Actual loss sustained,document,Erie home declarations.pdf,1
+Q-3C19E070E013F3B7,current,Erie,home,Liability,"$500,000",document,Erie home declarations.pdf,1
+Q-3C19E070E013F3B7,current,Erie,home,Deductible,"$1,000",document,Erie home declarations.pdf,1
+Q-3C19E070E013F3B7,quote,Erie,home,Dwelling,"$425,000",document,Erie home quote.pdf,1
+Q-3C19E070E013F3B7,quote,Erie,home,Other structures,"$42,500",calculated,,
+Q-3C19E070E013F3B7,quote,Erie,home,Personal property,"$297,500",document,Erie home quote.pdf,1
+Q-3C19E070E013F3B7,quote,Erie,home,Loss of use,Actual loss sustained,document,Erie home quote.pdf,1
+Q-3C19E070E013F3B7,quote,Erie,home,Liability,"$500,000",document,Erie home quote.pdf,1
+Q-3C19E070E013F3B7,quote,Erie,home,Deductible,"$1,000",document,Erie home quote.pdf,1
+Q-3C19E070E013F3B7,quote,Encova,home,Dwelling,"$425,000",document,Encova home quote.pdf,1
+Q-3C19E070E013F3B7,quote,Encova,home,Other structures,"$42,500",calculated,,
+Q-3C19E070E013F3B7,quote,Encova,home,Personal property,"$297,500",document,Encova home quote.pdf,1
+Q-3C19E070E013F3B7,quote,Encova,home,Loss of use,"$85,000",document,Encova home quote.pdf,1
+Q-3C19E070E013F3B7,quote,Encova,home,Liability,"$500,000",document,Encova home quote.pdf,1
+Q-3C19E070E013F3B7,quote,Encova,home,Deductible,"$1,000",document,Encova home quote.pdf,1
+Q-3C19E070E013F3B7,quote,Foremost,home,Dwelling,"$400,000",document,Foremost home quote.pdf,1
+Q-3C19E070E013F3B7,quote,Foremost,home,Other structures,"$40,000",calculated,,
+Q-3C19E070E013F3B7,quote,Foremost,home,Personal property,"$200,000",confirm,Foremost home quote.pdf,1
+Q-3C19E070E013F3B7,quote,Foremost,home,Loss of use,"$80,000",document,Foremost home quote.pdf,1
+Q-3C19E070E013F3B7,quote,Foremost,home,Liability,"$300,000",document,Foremost home quote.pdf,1
+Q-3C19E070E013F3B7,quote,Foremost,home,Deductible,"$2,500",document,Foremost home quote.pdf,1
+Q-3C19E070E013F3B7,quote,Liberty Mutual,home,Dwelling,"$425,000",document,Liberty Mutual home quote.pdf,1
+Q-3C19E070E013F3B7,quote,Liberty Mutual,home,Other structures,"$42,500",calculated,,
+Q-3C19E070E013F3B7,quote,Liberty Mutual,home,Personal property,"$212,500",document,Liberty Mutual home quote.pdf,1
+Q-3C19E070E013F3B7,quote,Liberty Mutual,home,Loss of use,"$85,000",confirm,Liberty Mutual home quote.pdf,1
+Q-3C19E070E013F3B7,quote,Liberty Mutual,home,Liability,"$500,000",document,Liberty Mutual home quote.pdf,1
+Q-3C19E070E013F3B7,quote,Liberty Mutual,home,Deductible,"$1,000",document,Liberty Mutual home quote.pdf,1
+Q-3C19E070E013F3B7,quote,Encompass,home,Dwelling,"$425,000",document,Encompass home quote.pdf,1
+Q-3C19E070E013F3B7,quote,Encompass,home,Other structures,"$42,500",calculated,,
+Q-3C19E070E013F3B7,quote,Encompass,home,Personal property,"$297,500",document,Encompass home quote.pdf,1
+Q-3C19E070E013F3B7,quote,Encompass,home,Loss of use,"$127,500",document,Encompass home quote.pdf,1
+Q-3C19E070E013F3B7,quote,Encompass,home,Liability,"$500,000",document,Encompass home quote.pdf,1
+Q-3C19E070E013F3B7,quote,Encompass,home,Deductible,"$1,000",document,Encompass home quote.pdf,1

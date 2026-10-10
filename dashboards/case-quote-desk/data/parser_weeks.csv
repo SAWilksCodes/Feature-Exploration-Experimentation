@@ -1,0 +1,49 @@
+week,carrier,fields_extracted,fields_overridden,fields_to_confirm
+2026-08-17,Erie,111,9,4
+2026-08-24,Erie,151,6,6
+2026-08-31,Erie,85,3,4
+2026-09-07,Erie,111,2,9
+2026-09-14,Erie,140,3,6
+2026-09-21,Erie,80,1,7
+2026-09-28,Erie,129,3,8
+2026-10-05,Erie,99,1,7
+2026-08-17,Progressive,154,4,7
+2026-08-24,Progressive,152,9,2
+2026-08-31,Progressive,111,3,5
+2026-09-07,Progressive,171,2,1
+2026-09-14,Progressive,146,1,6
+2026-09-21,Progressive,111,2,8
+2026-09-28,Progressive,72,1,3
+2026-10-05,Progressive,96,1,9
+2026-08-17,Encova,154,20,0
+2026-08-24,Encova,144,16,5
+2026-08-31,Encova,122,17,7
+2026-09-07,Encova,129,15,8
+2026-09-14,Encova,95,8,5
+2026-09-21,Encova,62,4,9
+2026-09-28,Encova,108,10,7
+2026-10-05,Encova,144,7,8
+2026-08-17,Liberty Mutual,96,7,2
+2026-08-24,Liberty Mutual,144,17,7
+2026-08-31,Liberty Mutual,108,7,8
+2026-09-07,Liberty Mutual,113,7,8
+2026-09-14,Liberty Mutual,131,4,6
+2026-09-21,Liberty Mutual,128,4,4
+2026-09-28,Liberty Mutual,91,3,1
+2026-10-05,Liberty Mutual,178,2,0
+2026-08-17,Foremost,121,22,3
+2026-08-24,Foremost,86,16,9
+2026-08-31,Foremost,110,16,8
+2026-09-07,Foremost,102,14,8
+2026-09-14,Foremost,165,21,2
+2026-09-21,Foremost,130,17,5
+2026-09-28,Foremost,118,15,8
+2026-10-05,Foremost,128,14,4
+2026-08-17,Encompass,92,9,9
+2026-08-24,Encompass,116,9,1
+2026-08-31,Encompass,92,9,1
+2026-09-07,Encompass,142,16,2
+2026-09-14,Encompass,110,11,8
+2026-09-21,Encompass,177,9,7
+2026-09-28,Encompass,91,6,1
+2026-10-05,Encompass,113,5,8
