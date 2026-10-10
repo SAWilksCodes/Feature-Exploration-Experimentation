@@ -1,0 +1,7 @@
+{
+  "name": "tool-tally",
+  "version": "0.1.0",
+  "description": "Tallies Claude's tool calls by tool: a count beside the spinner, a /tally pane with a bar chart, and a text summary.",
+  "author": { "name": "Shane Wilks" },
+  "types": "./types/index.d.ts"
+}

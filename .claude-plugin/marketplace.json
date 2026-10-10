@@ -1,0 +1,5 @@
+{
+  "name": "feature-exploration",
+  "owner": { "name": "Shane Wilks" },
+  "plugins": [{ "name": "tool-tally", "source": "./mods/tool-tally" }]
+}
