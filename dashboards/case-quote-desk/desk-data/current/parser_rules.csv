@@ -1,0 +1,25 @@
+rule_id,carrier,field,hits,misses
+R001,Erie,Liability (BI/PD),30,0
+R002,Erie,Term,10,1
+R003,Erie,Rental,14,3
+R004,Erie,Quote date,28,5
+R005,Progressive,Deductible,11,1
+R006,Progressive,Term,24,3
+R007,Progressive,Dwelling,12,3
+R008,Progressive,Annual premium,15,0
+R009,Encova,UM / UIM,30,3
+R010,Encova,Quote date,19,0
+R011,Encova,Named insured,40,0
+R012,Encova,Liability (BI/PD),0,4
+R013,Liberty Mutual,Rental,20,3
+R014,Liberty Mutual,Quote date,9,3
+R015,Liberty Mutual,Annual premium,3,1
+R016,Liberty Mutual,Dwelling,1,1
+R017,Foremost,Rental,2,2
+R018,Foremost,Deductible,5,5
+R019,Foremost,Annual premium,38,0
+R020,Foremost,Dwelling,30,5
+R021,Encompass,Liability (BI/PD),3,1
+R022,Encompass,Annual premium,23,0
+R023,Encompass,Term,5,0
+R024,Encompass,Dwelling,1,2
